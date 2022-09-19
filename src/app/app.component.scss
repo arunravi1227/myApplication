@@ -11,10 +11,15 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 20px;
     .mainarea{
-        width:50%;
+        width:80%;
+        background-color: cadetblue;
+        text-align: center;
     }
     .sidebar{
-        width: 40%px;
+        width: 80%;
+        background-color: orange;
+        text-align: center;
+    
     }
 }
 .footer{
@@ -22,6 +27,7 @@
     color: black;
     background-color: brown;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    justify-content: center;
     margin-top: 20px;
+
 }
