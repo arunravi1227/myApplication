@@ -1,0 +1,27 @@
+.header{
+    color:whitesmoke;
+    font-style: oblique;
+    text-align: center;
+    background-color: black
+}
+.content{
+    display: flex;
+    color:black;
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    .mainarea{
+        width:50%;
+    }
+    .sidebar{
+        width: 40%px;
+    }
+}
+.footer{
+    display: flex;
+    color: black;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
