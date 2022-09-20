@@ -7,6 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { MainareaComponent } from './mainarea/mainarea.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
+import { UserlistComponent } from './userlist/userlist.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     MainareaComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    ChildComponent,
+    ParentComponent,
+    UserlistComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
