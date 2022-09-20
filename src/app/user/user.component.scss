@@ -1,0 +1,58 @@
+element.style {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 4px;
+    justify-content: center;
+}
+
+.user{
+    display: flex;
+    width: 300px;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+
+    .user-details{
+        margin: 2px;
+        font-size: 14px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    
+    
+    .profile-pic {
+        width: 100px;
+        img{
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+    .user-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p {
+            margin: 0px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    }
+    .cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .remove-user {
+            font-size: 11px;
+    background: rgb(92, 97, 95);
+    cursor: pointer;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 14px;
+        }
+    }
+}
+
+
