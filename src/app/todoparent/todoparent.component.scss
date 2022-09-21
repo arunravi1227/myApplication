@@ -1,0 +1,17 @@
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+.strikethrough:checked{
+    text-decoration:line-through;
+  }
+
+  .isActive{
+    color:aquamarine;
+  }
+  .inActive{
+    color:chartreuse;
+    text-decoration: line-through;
+
+  }
