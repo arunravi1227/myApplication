@@ -1,0 +1,12 @@
+<!-- <p>listparent works!</p> -->
+<p>To Do list</p>
+<div class="input">
+    <input type="text" name="task"[(ngModel)]="task">
+    <button type ="button"(click)="add()">submit</button>
+
+</div>
+
+<ng-container *ngFor="let task of tasklist">
+    <app-listchild [passvalue]="task"></app-listchild>
+
+</ng-container>

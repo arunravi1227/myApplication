@@ -1,0 +1,22 @@
+<p>ToDo List</p>
+
+
+<input class="textbutton"type="text"[(ngModel)]="todo">
+
+<button (click)="myButton()" class="button">click me</button>
+
+
+
+<div>
+
+    <ul>
+
+        <li *ngFor="let to of todoParent;" [ngClass]="isActive? 'isActive':'inActive'"><input type=checkBox (click)="clicked($event)">{{to}}</li>
+
+    </ul>
+
+</div>
+
+
+
+

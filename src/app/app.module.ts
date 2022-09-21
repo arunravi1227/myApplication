@@ -11,6 +11,13 @@ import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { UserlistComponent } from './userlist/userlist.component';
 import { UserComponent } from './user/user.component';
+import { TodoparentComponent } from './todoparent/todoparent.component';
+import { TodochildComponent } from './todochild/todochild.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ListparentComponent } from './listparent/listparent.component';
+import { ListchildComponent } from './listchild/listchild.component';
+
+
 
 @NgModule({
   declarations: [
@@ -22,11 +29,16 @@ import { UserComponent } from './user/user.component';
     ChildComponent,
     ParentComponent,
     UserlistComponent,
-    UserComponent
+    UserComponent,
+    TodoparentComponent,
+    TodochildComponent,
+    ListparentComponent,
+    ListchildComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

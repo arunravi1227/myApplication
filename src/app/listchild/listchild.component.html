@@ -1,0 +1,6 @@
+<!-- <p>listchild works!</p> -->
+<ul>
+    <li [ngClass]="isActive?'isActive':'inActive'">
+        <p><input type ="checkbox" (click) ="check($event)">{{passvalue}}</p>
+    </li>
+</ul>
