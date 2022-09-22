@@ -16,6 +16,10 @@ import { TodochildComponent } from './todochild/todochild.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListparentComponent } from './listparent/listparent.component';
 import { ListchildComponent } from './listchild/listchild.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { Component1Component } from './component1/component1.component';
+import { Component2Component } from './component2/component2.component';
 
 
 
@@ -33,7 +37,11 @@ import { ListchildComponent } from './listchild/listchild.component';
     TodoparentComponent,
     TodochildComponent,
     ListparentComponent,
-    ListchildComponent
+    ListchildComponent,
+    AboutusComponent,
+    ContactusComponent,
+    Component1Component,
+    Component2Component
   ],
   imports: [
     BrowserModule,
