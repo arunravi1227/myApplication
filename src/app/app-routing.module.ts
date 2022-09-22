@@ -7,6 +7,7 @@ import { Component2Component } from './component2/component2.component';
 
 
 const routes: Routes = [{
+
   path:'aboutus',
   component:AboutusComponent,
   children:[{
