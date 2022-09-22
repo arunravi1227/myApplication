@@ -12,15 +12,16 @@ const routes: Routes = [{
   children:[{
     path:'component1',
     component:Component1Component
+  },
+   { path:'component2',
+    component:Component2Component
   }]
+
 },
 {
 path:'contactus',
 component:ContactusComponent,
-children:[{
-  path:'component2',
-  component:Component2Component
-}]
+
 }
 
 
