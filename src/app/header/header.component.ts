@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  title:any="Enter your name";
+  title:any;
 
   isdisabled:boolean=false; 
   isActive:boolean=true;
@@ -16,6 +16,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
   button(){
     console.log("clicked");
